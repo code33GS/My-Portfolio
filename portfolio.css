@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.social-lg-nm-drpdwn{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-direction:row;
+    background: linear-gradient(to top, #292929 , #666666);
+    box-shadow: 2px 4px 9px #000000;
+}
+.scl-mda-icn{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    gap:0.7vw;
+    margin-left: 2vw;
+}
+.scl-lnks{
+    text-decoration: none;
+}
+.scl-nme:hover{
+    color:#000000;
+}
+.scl-lnks:hover{
+    cursor: cell;
+}
+.prtfl-i-name{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.code-gs-lg-n-nm{
+    margin-top: 0.7%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.icn-n-nme{
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    gap:0.7vw;
+}
+.scl-icns{
+    font-size: 1.9vw;
+    height: 1.9vw;
+}
+.scl-nme{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 1.7vw;
+    color: #ffffff;
+}
+.code-gs-lg{
+    background-image: url("CodeGSlogo.jpg");
+    height:9vw;
+    width:9vw;
+    background-size: contain;
+    border-radius: 50%;
+    box-shadow: 2px 2px 9px #000000;
+}
+.code-gs-nme{
+    font-size: 3.3vw;
+    font-family: "Encode Sans SC", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    /* letter-spacing: 0.7vw; */
+    color: #ffffff;
+    text-shadow: 2px 4px 9px #000000;
+}
