@@ -1,14 +1,15 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: "Montserrat", sans-serif;
 }
 .social-lg-nm-drpdwn{
     display:flex;
     align-items:center;
     justify-content:space-between;
     flex-direction:row;
-    background: linear-gradient(to top, #292929 , #666666);
-    box-shadow: 2px 4px 9px #000000;
+    background: linear-gradient(to top, #1b1b1b , #666666);
+    box-shadow: 0px 4px 9px #000000;
 }
 .scl-mda-icn{
     display:flex;
@@ -52,19 +53,19 @@
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 200;
-    font-size: 1.7vw;
+    font-size: 1.1vw;
     color: #ffffff;
 }
 .code-gs-lg{
     background-image: url("CodeGSlogo.jpg");
-    height:9vw;
-    width:9vw;
+    height:6vw;
+    width:6vw;
     background-size: contain;
     border-radius: 50%;
     box-shadow: 2px 2px 9px #000000;
 }
 .code-gs-nme{
-    font-size: 3.3vw;
+    font-size: 2.4vw;
     font-family: "Encode Sans SC", sans-serif;
     font-optical-sizing: auto;
     /* font-weight: <weight>; */
@@ -73,4 +74,115 @@
     /* letter-spacing: 0.7vw; */
     color: #ffffff;
     text-shadow: 2px 4px 9px #000000;
+}
+.drp-dwn-E{
+    margin-right: 2vw;
+}
+
+.langs-known{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.langs-known-head{
+    margin: 2% 1%;
+    font-size: 1.7vw;
+    color:#666666;
+    font-weight: 700;
+}
+
+.lang-logos{
+    display:flex;
+    flex-direction:row;
+}
+.langlogo{
+    margin:0 2vw;
+    height:6vw;
+    width:6vw;
+    object-fit:cover;
+    border-radius:50%;  
+}
+.htmlshadow{
+    box-shadow:0px 0px 10px 7px #e44d25;
+}
+.cssshadow{
+    box-shadow:0px 0px 10px 7px #379ad6;
+}
+.jsshadow{
+    box-shadow:0px 0px 10px 7px #fdcd00;
+}
+.cshadow{
+    box-shadow:0px 0px 10px 7px #03589b;
+}
+.cppshadow{
+    box-shadow:0px 0px 10px 7px #035899;
+}
+.pyshadow{
+    box-shadow:0px 0px 10px 7px #fdcd00;
+}
+
+
+@media (max-width:1000px) and (min-width:666px){
+    .code-gs-lg{
+        height:9vw;
+        width:9vw;
+    }
+    .htmlshadow{
+        box-shadow:0px 0px 6px 3px #e44d25;
+    }
+    .cssshadow{
+        box-shadow:0px 0px 6px 3px #379ad6;
+    }
+    .jsshadow{
+        box-shadow:0px 0px 6px 3px #fdcd00;
+    }
+    .cshadow{
+        box-shadow:0px 0px 6px 3px #03589b;
+    }
+    .cppshadow{
+        box-shadow:0px 0px 6px 3px #035899;
+    }
+    .pyshadow{
+        box-shadow:0px 0px 6px 3px #fdcd00;
+    }
+
+}
+@media (max-width:666px) and (min-width:300px){
+    .code-gs-lg{
+        height:11vw;
+        width:11vw;
+    }
+    .social-lg-nm-drpdwn{
+        box-shadow: 0px 3px 6px #000000;
+    }
+    .htmlshadow{
+        box-shadow:0px 0px 4px 2px #e44d25;
+    }
+    .cssshadow{
+        box-shadow:0px 0px 4px 2px #379ad6;
+    }
+    .jsshadow{
+        box-shadow:0px 0px 4px 2px #fdcd00;
+    }
+    .cshadow{
+        box-shadow:0px 0px 4px 2px #03589b;
+    }
+    .cppshadow{
+        box-shadow:0px 0px 4px 2px #035899;
+    }
+    .pyshadow{
+        box-shadow:0px 0px 4px 2px #fdcd00;
+    }
+
+}
+
+@media (max-width:300px){
+    *{
+        background-image: url("hahaveryfunny.png");
+        background-size: fit;
+    }
+    body{
+        display: none;
+    }
 }
